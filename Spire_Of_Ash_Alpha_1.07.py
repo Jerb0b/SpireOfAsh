@@ -28,7 +28,7 @@ ORANGE = (255, 165, 0)  # Speed item
 
 # Setup screen
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Spire of Ash")
+pygame.display.set_caption("Spires of Ash")
 clock = pygame.time.Clock()
 
 # Font for score and health display
@@ -54,7 +54,7 @@ def main_menu():
         screen.fill(BLUE)
 
         # Draw title
-        title_surface = title_font.render("Spire of Ash", True, WHITE)
+        title_surface = title_font.render("Spires of Ash", True, WHITE)
         title_rect = title_surface.get_rect(center=(WIDTH // 2, HEIGHT // 3))
         screen.blit(title_surface, title_rect)
 
